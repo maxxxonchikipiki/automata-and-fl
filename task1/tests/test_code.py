@@ -2,7 +2,7 @@ import sys
 import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from code import find_chains, check_errors
+from automaton import find_chains, check_errors
 import pytest
 
 TEST_CASES = [
