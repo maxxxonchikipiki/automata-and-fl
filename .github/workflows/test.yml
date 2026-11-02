@@ -18,4 +18,4 @@ jobs:
     - name: Install dependencies
       run: pip install pytest
     - name: Test with pytest
-      run: pytest task1/tests/test_automaton.py -v
+      run: pytest task1/test_automaton.py -v
