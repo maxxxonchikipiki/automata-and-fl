@@ -17,5 +17,7 @@ jobs:
         python-version: '3.10'
     - name: Install dependencies
       run: pip install pytest
-    - name: Test with pytest
+    - name: Test task1
       run: pytest task1/test_automaton.py -v
+    - name: Test task2
+      run: pytest task2/test_automaton.py -v
